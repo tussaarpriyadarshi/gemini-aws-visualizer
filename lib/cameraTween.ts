@@ -3,7 +3,7 @@ import gsap from "gsap";
 import * as THREE from "three";
 
 export function tweenCameraTo(
-  camera: THREE.PerspectiveCamera,
+  camera: THREE.Camera,
   target: THREE.Vector3,
   opts?: {
     duration?: number;

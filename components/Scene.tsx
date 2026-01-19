@@ -25,20 +25,23 @@ function CameraController({ flyToRegion, regions }: { flyToRegion: string | null
   const controlsRef = useRef<any>();
 
   useEffect(() => {
-  if (flyToRegion && controlsRef.current) {
-    const region = regions.find(r => r.region === flyToRegion);
-    if (region) {
-      const targetPos = latLngToVector3(region.lat, region.lng, 130);
-      tweenCameraTo(
-  camera,
-  new THREE.Vector3(targetPos.x, targetPos.y, targetPos.z),
-  { offset: { z: 40 }, duration: 1.8 }
-);
+  if (!flyToRegion || !controlsRef.current) return;
 
+  const region = regions.find(r => r.region === flyToRegion);
+  if (!region) return;
 
-    }
+  const targetPos = latLngToVector3(region.lat, region.lng, 130);
+
+  if (camera instanceof THREE.PerspectiveCamera) {
+    tweenCameraTo(
+      camera,
+      new THREE.Vector3(targetPos.x, targetPos.y, targetPos.z),
+      { offset: { z: 40 }, duration: 1.8 }
+    );
   }
+
 }, [flyToRegion, camera, regions]);
+
 
 
   return (

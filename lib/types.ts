@@ -15,8 +15,12 @@ export interface GeminiAction {
     | "provision_architecture"
     | "error"
     | "latency_suggestion";   // NEW
+    
 
   regions?: string[];
+  target?: string;
+  architecture?: string[];
+
 
   // NEW optional fields
   latency_estimate?: string;   // "20-50ms"
