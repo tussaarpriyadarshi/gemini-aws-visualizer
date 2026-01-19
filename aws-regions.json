@@ -1,0 +1,170 @@
+[
+  {
+    "region": "us-east-1",
+    "displayName": "N. Virginia",
+    "country": "United States",
+    "lat": 38.13,
+    "lng": -78.45,
+    "availabilityZones": ["us-east-1a", "us-east-1b", "us-east-1c", "us-east-1d", "us-east-1e", "us-east-1f"]
+  },
+  {
+    "region": "us-east-2",
+    "displayName": "Ohio",
+    "country": "United States",
+    "lat": 40.42,
+    "lng": -82.90,
+    "availabilityZones": ["us-east-2a", "us-east-2b", "us-east-2c"]
+  },
+  {
+    "region": "us-west-1",
+    "displayName": "N. California",
+    "country": "United States",
+    "lat": 37.35,
+    "lng": -121.95,
+    "availabilityZones": ["us-west-1a", "us-west-1b"]
+  },
+  {
+    "region": "us-west-2",
+    "displayName": "Oregon",
+    "country": "United States",
+    "lat": 45.84,
+    "lng": -119.70,
+    "availabilityZones": ["us-west-2a", "us-west-2b", "us-west-2c", "us-west-2d"]
+  },
+  {
+    "region": "ca-central-1",
+    "displayName": "Canada (Central)",
+    "country": "Canada",
+    "lat": 45.50,
+    "lng": -73.60,
+    "availabilityZones": ["ca-central-1a", "ca-central-1b", "ca-central-1d"]
+  },
+  {
+    "region": "eu-west-1",
+    "displayName": "Ireland",
+    "country": "Ireland",
+    "lat": 53.35,
+    "lng": -6.26,
+    "availabilityZones": ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
+  },
+  {
+    "region": "eu-west-2",
+    "displayName": "London",
+    "country": "United Kingdom",
+    "lat": 51.51,
+    "lng": -0.13,
+    "availabilityZones": ["eu-west-2a", "eu-west-2b", "eu-west-2c"]
+  },
+  {
+    "region": "eu-west-3",
+    "displayName": "Paris",
+    "country": "France",
+    "lat": 48.86,
+    "lng": 2.35,
+    "availabilityZones": ["eu-west-3a", "eu-west-3b", "eu-west-3c"]
+  },
+  {
+    "region": "eu-central-1",
+    "displayName": "Frankfurt",
+    "country": "Germany",
+    "lat": 50.11,
+    "lng": 8.68,
+    "availabilityZones": ["eu-central-1a", "eu-central-1b", "eu-central-1c"]
+  },
+  {
+    "region": "eu-north-1",
+    "displayName": "Stockholm",
+    "country": "Sweden",
+    "lat": 59.33,
+    "lng": 18.06,
+    "availabilityZones": ["eu-north-1a", "eu-north-1b", "eu-north-1c"]
+  },
+  {
+    "region": "eu-south-1",
+    "displayName": "Milan",
+    "country": "Italy",
+    "lat": 45.46,
+    "lng": 9.19,
+    "availabilityZones": ["eu-south-1a", "eu-south-1b", "eu-south-1c"]
+  },
+  {
+    "region": "ap-south-1",
+    "displayName": "Mumbai",
+    "country": "India",
+    "lat": 19.08,
+    "lng": 72.88,
+    "availabilityZones": ["ap-south-1a", "ap-south-1b", "ap-south-1c"]
+  },
+  {
+    "region": "ap-northeast-1",
+    "displayName": "Tokyo",
+    "country": "Japan",
+    "lat": 35.68,
+    "lng": 139.76,
+    "availabilityZones": ["ap-northeast-1a", "ap-northeast-1c", "ap-northeast-1d"]
+  },
+  {
+    "region": "ap-northeast-2",
+    "displayName": "Seoul",
+    "country": "South Korea",
+    "lat": 37.57,
+    "lng": 126.98,
+    "availabilityZones": ["ap-northeast-2a", "ap-northeast-2b", "ap-northeast-2c"]
+  },
+  {
+    "region": "ap-northeast-3",
+    "displayName": "Osaka",
+    "country": "Japan",
+    "lat": 34.69,
+    "lng": 135.50,
+    "availabilityZones": ["ap-northeast-3a", "ap-northeast-3b", "ap-northeast-3c"]
+  },
+  {
+    "region": "ap-southeast-1",
+    "displayName": "Singapore",
+    "country": "Singapore",
+    "lat": 1.35,
+    "lng": 103.82,
+    "availabilityZones": ["ap-southeast-1a", "ap-southeast-1b", "ap-southeast-1c"]
+  },
+  {
+    "region": "ap-southeast-2",
+    "displayName": "Sydney",
+    "country": "Australia",
+    "lat": -33.87,
+    "lng": 151.21,
+    "availabilityZones": ["ap-southeast-2a", "ap-southeast-2b", "ap-southeast-2c"]
+  },
+  {
+    "region": "ap-east-1",
+    "displayName": "Hong Kong",
+    "country": "Hong Kong",
+    "lat": 22.32,
+    "lng": 114.17,
+    "availabilityZones": ["ap-east-1a", "ap-east-1b", "ap-east-1c"]
+  },
+  {
+    "region": "sa-east-1",
+    "displayName": "São Paulo",
+    "country": "Brazil",
+    "lat": -23.55,
+    "lng": -46.63,
+    "availabilityZones": ["sa-east-1a", "sa-east-1b", "sa-east-1c"]
+  },
+  {
+    "region": "me-south-1",
+    "displayName": "Bahrain",
+    "country": "Bahrain",
+    "lat": 26.07,
+    "lng": 50.56,
+    "availabilityZones": ["me-south-1a", "me-south-1b", "me-south-1c"]
+  },
+  {
+    "region": "af-south-1",
+    "displayName": "Cape Town",
+    "country": "South Africa",
+    "lat": -33.92,
+    "lng": 18.42,
+    "availabilityZones": ["af-south-1a", "af-south-1b", "af-south-1c"]
+  }
+]
